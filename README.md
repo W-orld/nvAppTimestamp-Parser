@@ -12,7 +12,9 @@ Parses Nvidia's Saved Executable Paths
 
 # **How to Use**
 **1.** Open Powershell as Administrator.
+
 **2 ** Paste Script using Invoke or ps1.
+
 **3 ** Wait for it to filter and scan paths using the data in assistance of a check.
 
 # **Invoke**

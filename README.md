@@ -21,9 +21,3 @@ $url = 'https://github.com/W-orld/nvAppTimestamp-Parser/releases/download/nvAppT
 $bytes = (Invoke-WebRequest -Uri $url).Content
 $script = [System.Text.Encoding]::UTF8.GetString($bytes).TrimStart([char]0xFEFF)
 Invoke-Expression $script
-
-
-
-
-
-
